@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(imagenes/rosa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+
+ .contendor {
+        background-color: rgba(255, 255, 255, 0.575);
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+
+h1{
+    margin-bottom: 20px;
+    color: #03050c;
+}
+
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: rgb(10, 8, 8);
+}
+
+.etiqueta {
+    font-weight: bold;
+    text-align:left;
+   
+}
+
+.valor {
+    text-align: left;
+    flex: auto;
+}
